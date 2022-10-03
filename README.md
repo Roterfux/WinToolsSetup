@@ -1,7 +1,9 @@
 # Windows Tools Setup Script
 
 Install Scoop Package Manager
+
 ```pwsh
+# Content for a single installation script: e.g. WinToolSetup.ps1
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
 
