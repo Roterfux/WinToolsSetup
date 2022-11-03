@@ -9,6 +9,7 @@ irm get.scoop.sh | iex
 
 scoop bucket add extras
 scoop bucket add nerd-fonts
+scoop bucket add versions
 
 scoop install firefox python vscodium tor-browser winscp git adb windows-terminal pwsh qtorrent discord telegram mpc-hc-fork rufus syncthing syncthingtray pycharm dbeaver 7zip gimp tailscale calibre fzf sharex aimp singal mumble keepass fzf dbeaver hexchat openssh xmedia-recode
 
