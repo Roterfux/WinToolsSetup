@@ -11,7 +11,7 @@ scoop bucket add extras
 scoop bucket add nerd-fonts
 scoop bucket add versions
 
-scoop install firefox python vscodium tor-browser winscp git adb windows-terminal pwsh qtorrent discord telegram mpc-hc-fork rufus syncthing syncthingtray pycharm dbeaver 7zip gimp tailscale calibre fzf sharex aimp singal mumble keepass fzf dbeaver hexchat openssh xmedia-recode quicklook
+scoop install 7zip adb aimp calibre dbeaver discord firefox fzf gimp git hexchat python vscodium tor-browser winscp windows-terminal pwsh qtorrent telegram mpc-hc-fork rufus syncthing syncthingtray pycharm tailscale sharex singal mumble keepass penssh xmedia-recode quicklook
 
 scoop export  # the exported json file can be used for the next installation as an import file (scoop install)
 ```
