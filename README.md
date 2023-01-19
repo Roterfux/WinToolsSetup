@@ -14,8 +14,10 @@ scoop bucket add versions
 scoop install sfsu
 Invoke-Expression (&sfst-hook)
 
-scoop install 7zip adb aimp beeftext calibre dbeaver discord firefox fzf gimp git hexchat python vscodium tor-browser winscp windows-terminal pwsh telegram mpc-hc-fork rufus syncthing syncthingtray pycharm sharex singal mumble keepass penssh xmedia-recode quicklook qbittorrent librehardwaremonitor darktable winget
+scoop install 7zip adb aimp beeftext calibre dbeaver discord firefox fzf gimp git hexchat python vscodium tor-browser winscp windows-terminal pwsh telegram mpc-hc-fork rufus syncthing syncthingtray pycharm sharex singal mumble keepass penssh xmedia-recode quicklook qbittorrent librehardwaremonitor darktable winget everything mpc-hc libreoffice
+
 scoop install sudo 
+
 sudo scoop install tailscale
 
 # execute the following output
