@@ -22,8 +22,9 @@ scoop install sudo
 
 sudo scoop install tailscale
 
-# execute the following output
+# execute the following outputs in an admin shell
 "C:\Users\" + [System.Environment]::UserName + "\scoop\apps\python\current\install-pep-514.reg"
+"C:\Users\" + [System.Environment]::UserName + "\scoop\apps\7zip\current\install-context.reg"
 
 #winget upgrade --all
 
