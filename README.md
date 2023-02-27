@@ -7,17 +7,22 @@ Install Scoop Package Manager
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
 
+# Precondition for some tools/programs
 scoop install git
 
+# Add more sources
 scoop bucket add extras
 scoop bucket add nerd-fonts
 scoop bucket add versions
 
+# improves search speed
 scoop install sfsu
 Invoke-Expression (&sfst-hook)
 
+# programs list
 scoop install 7zip adb aimp beeftext calibre clink clink-completions dbeaver firefox fzf gimp hexchat python vscodium tor-browser winscp windows-terminal pwsh telegram mpc-hc-fork rufus syncthing syncthingtray pycharm sharex signal mumble keepass xmedia-recode qbittorrent  darktable winget  
 
+# su for tailscale
 scoop install sudo 
 
 sudo scoop install tailscale
