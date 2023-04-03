@@ -20,7 +20,7 @@ scoop install sfsu
 Invoke-Expression (&sfst-hook)
 
 # programs list
-scoop install 7zip adb aimp beeftext calibre clink clink-completions dbeaver firefox fzf gimp hexchat python vscodium tor-browser winscp windows-terminal pwsh telegram mpc-hc-fork rufus syncthing syncthingtray pycharm sharex signal mumble keepass xmedia-recode qbittorrent  darktable winget  
+scoop install 7zip adb aimp beeftext calibre clink clink-completions dbeaver firefox fzf gimp hexchat python vscodium tor-browser winscp windows-terminal pwsh telegram mpc-hc-fork rufus syncthing syncthingtray pycharm sharex signal mumble keepass xmedia-recode qbittorrent  darktable winget which
 
 # su for tailscale
 scoop install sudo 
