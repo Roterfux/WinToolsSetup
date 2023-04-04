@@ -14,6 +14,7 @@ scoop install git
 scoop bucket add extras
 scoop bucket add nerd-fonts
 scoop bucket add versions
+scoop install pwsh
 
 # improves search speed
 scoop install sfsu
