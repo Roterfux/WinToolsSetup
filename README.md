@@ -21,7 +21,10 @@ scoop install sfsu
 Invoke-Expression (&sfst-hook)
 
 # programs list
-scoop install 7zip adb aimp beeftext calibre clink clink-completions dbeaver firefox fzf gimp hexchat python vscodium tor-browser winscp windows-terminal pwsh telegram mpc-hc-fork rufus syncthing syncthingtray pycharm sharex signal mumble keepass xmedia-recode qbittorrent  darktable winget which
+scoop install 7zip adb aimp beeftext calibre clink clink-completions dbeaver firefox fzf gimp hexchat python vscodium tor-browser winscp windows-terminal pwsh telegram mpc-hc-fork rufus syncthing syncthingtray pycharm sharex signal mumble keepass xmedia-recode qbittorrent darktable winget which
+
+clink inject
+clink autorun install
 
 # su for tailscale
 scoop install sudo 
@@ -32,7 +35,7 @@ sudo scoop install tailscale
 regedit /s "C:\Users\" + [System.Environment]::UserName + "\scoop\apps\python\current\install-pep-514.reg"
 regedit /s "C:\Users\" + [System.Environment]::UserName + "\scoop\apps\7zip\current\install-context.reg"
 
-#winget upgrade --all
+# winget upgrade --all
 
 scoop export  # the exported json file can be used for the next installation as an import file (scoop install)
 ```
