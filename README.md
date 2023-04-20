@@ -21,7 +21,7 @@ scoop install sfsu
 Invoke-Expression (&sfst-hook)
 
 # programs list
-scoop install 7zip adb aimp beeftext calibre clink clink-completions dbeaver firefox-eme-free fzf gimp hexchat python vscodium tor-browser winscp windows-terminal pwsh telegram mpc-hc-fork rufus syncthing syncthingtray pycharm sharex signal mumble keepass xmedia-recode qbittorrent darktable winget which
+scoop install 7zip adb aimp beeftext calibre clink clink-completions dbeaver firefox-eme-free fzf gimp hexchat python vscodium tor-browser winscp termscp windows-terminal pwsh telegram mpc-hc-fork rufus syncthing syncthingtray pycharm sharex signal mumble keepass xmedia-recode qbittorrent darktable winget which
 
 clink inject
 clink autorun install
