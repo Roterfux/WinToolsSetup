@@ -25,7 +25,14 @@ scoop install sfsu
 Invoke-Expression (&sfst-hook)
 
 # programs list
-scoop install adb aimp bat beeftext calibre clink clink-completions dbeaver firefox-eme-free fzf gimp hexchat keepass keepass-plugin-webautotype vscodium tor-browser winscp termscp windows-terminal telegram mpc-hc-fork rufus syncthing syncthingtray sysinternals pycharm python sharex signal starship touch which mumble keepass xmedia-recode qbittorrent darktable winget
+scoop install adb aimp bat beeftext calibre clink clink-completions dbeaver fzf gimp hexchat keepass keepass-plugin-webautotype vscodium tor-browser winscp termscp windows-terminal telegram mpc-hc-fork rufus syncthing syncthingtray sysinternals pycharm python sharex signal starship touch which mumble keepass xmedia-recode qbittorrent darktable winget
+
+scoop install firefox-eme-free
+#To set profile 'Scoop' as *DEFAULT*, or profiles/settings was lost after update:
+#- Run 'Firefox Profile Manager', choose 'Scoop' then click 'Start Firefox'.
+#- Visit 'about:profiles' page in Firefox to check *DEFAULT* profile.
+
+pause
 
 clink inject
 clink autorun install
