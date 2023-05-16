@@ -25,7 +25,9 @@ scoop install sfsu
 Invoke-Expression (&sfst-hook)
 
 # programs list
-scoop install adb aimp bat beeftext calibre clink clink-completions dbeaver fzf gimp hexchat keepass keepass-plugin-webautotype vscodium tor-browser winscp termscp windows-terminal telegram mpc-hc-fork rufus syncthing syncthingtray sysinternals pycharm python sharex signal starship touch which mumble keepass xmedia-recode qbittorrent darktable winget
+scoop install adb aimp bat beeftext calibre clink clink-completions dbeaver fzf gimp hexchat keepass keepass-plugin-webautotype vscodium tor-browser winscp termscp windows-terminal telegram mpc-hc-fork rufus syncthing syncthingtray sysinternals pycharm python sharex signal starship touch which mumble keepass xmedia-recode qbittorrent darktable winget extra/vcredist2022
+
+scoop uninstall vcredist2022
 
 scoop install firefox-eme-free
 #To set profile 'Scoop' as *DEFAULT*, or profiles/settings was lost after update:
@@ -44,6 +46,9 @@ sudo scoop install tailscale
 
 # execute the following outputs in an admin shell
 regedit /s "C:\Users\" + [System.Environment]::UserName + "\scoop\apps\python\current\install-pep-514.reg"
+regedit /s "C:\Users\" + [System.Environment]::UserName + "\scoop\apps\7zip\current\install-context.reg"
+regedit /s "C:\Users\" + [System.Environment]::UserName + "\scoop\apps\git\current\install-context.reg"
+regedit /s "C:\Users\" + [System.Environment]::UserName + "\scoop\apps\tailscale\current\add-startup.reg"
 regedit /s "C:\Users\" + [System.Environment]::UserName + "\scoop\apps\7zip\current\install-context.reg"
 
 # winget upgrade --all
